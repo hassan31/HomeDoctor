@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30C8E1D1B97427600C10D11 /* btn_back@2x 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C30C8E1A1B97427600C10D11 /* btn_back@2x 2.png */; };
+		C30C8E1E1B97427600C10D11 /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30C8E1B1B97427600C10D11 /* btn_back@2x.png */; };
+		C30C8E1F1B97427600C10D11 /* btn_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30C8E1C1B97427600C10D11 /* btn_back@3x.png */; };
+		C30C8E231B9766F700C10D11 /* main_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C30C8E201B9766F700C10D11 /* main_bg.png */; };
+		C30C8E241B9766F700C10D11 /* main_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30C8E211B9766F700C10D11 /* main_bg@2x.png */; };
+		C30C8E251B9766F700C10D11 /* main_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30C8E221B9766F700C10D11 /* main_bg@3x.png */; };
+		C31302871B5FE57F002A7C22 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C31302851B5FE57F002A7C22 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C313028A1B5FE5B0002A7C22 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C31302891B5FE5B0002A7C22 /* Utility.m */; };
+		C313028E1B6045BF002A7C22 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C313028D1B6045BF002A7C22 /* NSDate+Utilities.m */; };
+		C32EBEC01B5EA4320000D13C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EBEBF1B5EA4320000D13C /* main.m */; };
+		C32EBECB1B5EA4320000D13C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32EBECA1B5EA4320000D13C /* Images.xcassets */; };
+		C32EBEDA1B5EA4330000D13C /* HomeDoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EBED91B5EA4330000D13C /* HomeDoctorTests.m */; };
+		C32EBEF21B5EA5090000D13C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EBEE51B5EA5090000D13C /* AppDelegate.m */; };
+		C32EBEF61B5EA5090000D13C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32EBEEC1B5EA5090000D13C /* Main.storyboard */; };
+		C32EBEF71B5EA5090000D13C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EBEF01B5EA5090000D13C /* MainViewController.m */; };
+		C32EBEFD1B5EA6030000D13C /* ActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EBEFB1B5EA6030000D13C /* ActivityIndicatorView.m */; };
+		C32EBEFE1B5EA6030000D13C /* ActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32EBEFC1B5EA6030000D13C /* ActivityIndicatorView.xib */; };
+		C32EBF011B5EA61A0000D13C /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EBF001B5EA61A0000D13C /* RegisterViewController.m */; };
+		C32EBF191B5EBE090000D13C /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EBF101B5EBE090000D13C /* Base64Transcoder.m */; };
+		C32EBF1A1B5EBE090000D13C /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EBF121B5EBE090000D13C /* HSK_CFUtilities.m */; };
+		C32EBF1B1B5EBE090000D13C /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EBF141B5EBE090000D13C /* NSData+Base64Additions.m */; };
+		C32EBF1C1B5EBE090000D13C /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EBF161B5EBE090000D13C /* NSStream+SKPSMTPExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C32EBF1D1B5EBE090000D13C /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EBF181B5EBE090000D13C /* SKPSMTPMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C32EBF1F1B5EC0D20000D13C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32EBF1E1B5EC0D20000D13C /* CFNetwork.framework */; };
+		C371A7991B79287F00A47256 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C371A7981B79287F00A47256 /* SplashViewController.m */; };
+		C37B9B0B1B75FCB200024B08 /* CustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C37B9B091B75FCB200024B08 /* CustomPickerView.m */; };
+		C37B9B0C1B75FCB200024B08 /* CustomPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37B9B0A1B75FCB200024B08 /* CustomPickerView.xib */; };
+		DC50C0B5062DC2DB2C0A224E /* libPods-HomeDoctor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FD482B6B2D8B783CEB326C /* libPods-HomeDoctor.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32EBED41B5EA4320000D13C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32EBEB21B5EA4320000D13C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32EBEB91B5EA4320000D13C;
+			remoteInfo = HomeDoctor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F0B3B32ED2FA28F74DA6D23 /* Pods-HomeDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeDoctor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeDoctor/Pods-HomeDoctor.debug.xcconfig"; sourceTree = "<group>"; };
+		38FD482B6B2D8B783CEB326C /* libPods-HomeDoctor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HomeDoctor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D108635537A511BCB5AC64 /* Pods-HomeDoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeDoctor.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeDoctor/Pods-HomeDoctor.release.xcconfig"; sourceTree = "<group>"; };
+		C30C8E1A1B97427600C10D11 /* btn_back@2x 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x 2.png"; sourceTree = "<group>"; };
+		C30C8E1B1B97427600C10D11 /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x.png"; sourceTree = "<group>"; };
+		C30C8E1C1B97427600C10D11 /* btn_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@3x.png"; sourceTree = "<group>"; };
+		C30C8E201B9766F700C10D11 /* main_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_bg.png; sourceTree = "<group>"; };
+		C30C8E211B9766F700C10D11 /* main_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_bg@2x.png"; sourceTree = "<group>"; };
+		C30C8E221B9766F700C10D11 /* main_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_bg@3x.png"; sourceTree = "<group>"; };
+		C31302841B5FE57F002A7C22 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C31302851B5FE57F002A7C22 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C31302881B5FE5B0002A7C22 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		C31302891B5FE5B0002A7C22 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		C313028C1B6045BF002A7C22 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		C313028D1B6045BF002A7C22 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		C32EBEBA1B5EA4320000D13C /* HomeDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32EBEBE1B5EA4320000D13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32EBEBF1B5EA4320000D13C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C32EBECA1B5EA4320000D13C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C32EBED31B5EA4320000D13C /* HomeDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32EBED81B5EA4330000D13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32EBED91B5EA4330000D13C /* HomeDoctorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeDoctorTests.m; sourceTree = "<group>"; };
+		C32EBEE41B5EA5090000D13C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C32EBEE51B5EA5090000D13C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C32EBEEC1B5EA5090000D13C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C32EBEEF1B5EA5090000D13C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C32EBEF01B5EA5090000D13C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C32EBEFA1B5EA6030000D13C /* ActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorView.h; sourceTree = "<group>"; };
+		C32EBEFB1B5EA6030000D13C /* ActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorView.m; sourceTree = "<group>"; };
+		C32EBEFC1B5EA6030000D13C /* ActivityIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityIndicatorView.xib; sourceTree = "<group>"; };
+		C32EBEFF1B5EA61A0000D13C /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		C32EBF001B5EA61A0000D13C /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		C32EBF0F1B5EBE090000D13C /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		C32EBF101B5EBE090000D13C /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		C32EBF111B5EBE090000D13C /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		C32EBF121B5EBE090000D13C /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		C32EBF131B5EBE090000D13C /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		C32EBF141B5EBE090000D13C /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		C32EBF151B5EBE090000D13C /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		C32EBF161B5EBE090000D13C /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		C32EBF171B5EBE090000D13C /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		C32EBF181B5EBE090000D13C /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		C32EBF1E1B5EC0D20000D13C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C371A7971B79287F00A47256 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		C371A7981B79287F00A47256 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		C37B9B081B75FCB200024B08 /* CustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerView.h; sourceTree = "<group>"; };
+		C37B9B091B75FCB200024B08 /* CustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerView.m; sourceTree = "<group>"; };
+		C37B9B0A1B75FCB200024B08 /* CustomPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPickerView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32EBEB71B5EA4320000D13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32EBF1F1B5EC0D20000D13C /* CFNetwork.framework in Frameworks */,
+				DC50C0B5062DC2DB2C0A224E /* libPods-HomeDoctor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32EBED01B5EA4320000D13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A7EE1D7C715949BF8FF362B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBF1E1B5EC0D20000D13C /* CFNetwork.framework */,
+				38FD482B6B2D8B783CEB326C /* libPods-HomeDoctor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7C88B9AF84ED8BD17EA1471 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B3B32ED2FA28F74DA6D23 /* Pods-HomeDoctor.debug.xcconfig */,
+				64D108635537A511BCB5AC64 /* Pods-HomeDoctor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C31302831B5FE57F002A7C22 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C31302841B5FE57F002A7C22 /* Reachability.h */,
+				C31302851B5FE57F002A7C22 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		C31302861B5FE57F002A7C22 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C31302881B5FE5B0002A7C22 /* Utility.h */,
+				C31302891B5FE5B0002A7C22 /* Utility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C313028B1B6045BF002A7C22 /* NSDate+Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C313028C1B6045BF002A7C22 /* NSDate+Utilities.h */,
+				C313028D1B6045BF002A7C22 /* NSDate+Utilities.m */,
+			);
+			path = "NSDate+Utilities";
+			sourceTree = "<group>";
+		};
+		C32EBEB11B5EA4320000D13C = {
+			isa = PBXGroup;
+			children = (
+				C32EBEBC1B5EA4320000D13C /* HomeDoctor */,
+				C32EBED61B5EA4330000D13C /* HomeDoctorTests */,
+				C32EBEBB1B5EA4320000D13C /* Products */,
+				A7C88B9AF84ED8BD17EA1471 /* Pods */,
+				4A7EE1D7C715949BF8FF362B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C32EBEBB1B5EA4320000D13C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBEBA1B5EA4320000D13C /* HomeDoctor.app */,
+				C32EBED31B5EA4320000D13C /* HomeDoctorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32EBEBC1B5EA4320000D13C /* HomeDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBEE31B5EA5090000D13C /* AppDelegate */,
+				C32EBEF81B5EA6030000D13C /* CustomClasses */,
+				C32EBECA1B5EA4320000D13C /* Images.xcassets */,
+				C32EBEE61B5EA5090000D13C /* Resources */,
+				C32EBEBD1B5EA4320000D13C /* Supporting Files */,
+				C32EBEED1B5EA5090000D13C /* ViewControllers */,
+			);
+			path = HomeDoctor;
+			sourceTree = "<group>";
+		};
+		C32EBEBD1B5EA4320000D13C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBEBE1B5EA4320000D13C /* Info.plist */,
+				C32EBEBF1B5EA4320000D13C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C32EBED61B5EA4330000D13C /* HomeDoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBED91B5EA4330000D13C /* HomeDoctorTests.m */,
+				C32EBED71B5EA4330000D13C /* Supporting Files */,
+			);
+			path = HomeDoctorTests;
+			sourceTree = "<group>";
+		};
+		C32EBED71B5EA4330000D13C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBED81B5EA4330000D13C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C32EBEE31B5EA5090000D13C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBEE41B5EA5090000D13C /* AppDelegate.h */,
+				C32EBEE51B5EA5090000D13C /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C32EBEE61B5EA5090000D13C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBEE71B5EA5090000D13C /* Assets */,
+				C32EBEEA1B5EA5090000D13C /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C32EBEE71B5EA5090000D13C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C30C8E1A1B97427600C10D11 /* btn_back@2x 2.png */,
+				C30C8E1B1B97427600C10D11 /* btn_back@2x.png */,
+				C30C8E1C1B97427600C10D11 /* btn_back@3x.png */,
+				C30C8E201B9766F700C10D11 /* main_bg.png */,
+				C30C8E211B9766F700C10D11 /* main_bg@2x.png */,
+				C30C8E221B9766F700C10D11 /* main_bg@3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C32EBEEA1B5EA5090000D13C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBEEC1B5EA5090000D13C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C32EBEED1B5EA5090000D13C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBEEE1B5EA5090000D13C /* MainViewController */,
+				C32EBEF11B5EA5090000D13C /* RegisterViewController */,
+				C371A7961B79287F00A47256 /* SplashViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C32EBEEE1B5EA5090000D13C /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBEEF1B5EA5090000D13C /* MainViewController.h */,
+				C32EBEF01B5EA5090000D13C /* MainViewController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		C32EBEF11B5EA5090000D13C /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBEFF1B5EA61A0000D13C /* RegisterViewController.h */,
+				C32EBF001B5EA61A0000D13C /* RegisterViewController.m */,
+			);
+			path = RegisterViewController;
+			sourceTree = "<group>";
+		};
+		C32EBEF81B5EA6030000D13C /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C37B9B071B75FCB200024B08 /* CustomPickerView */,
+				C32EBEF91B5EA6030000D13C /* ActivityIndicatorView */,
+				C313028B1B6045BF002A7C22 /* NSDate+Utilities */,
+				C31302831B5FE57F002A7C22 /* Reachability */,
+				C32EBF0E1B5EBE090000D13C /* SMTPLibrary */,
+				C31302861B5FE57F002A7C22 /* Utility */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		C32EBEF91B5EA6030000D13C /* ActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBEFA1B5EA6030000D13C /* ActivityIndicatorView.h */,
+				C32EBEFB1B5EA6030000D13C /* ActivityIndicatorView.m */,
+				C32EBEFC1B5EA6030000D13C /* ActivityIndicatorView.xib */,
+			);
+			path = ActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		C32EBF0E1B5EBE090000D13C /* SMTPLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				C32EBF0F1B5EBE090000D13C /* Base64Transcoder.h */,
+				C32EBF101B5EBE090000D13C /* Base64Transcoder.m */,
+				C32EBF111B5EBE090000D13C /* HSK_CFUtilities.h */,
+				C32EBF121B5EBE090000D13C /* HSK_CFUtilities.m */,
+				C32EBF131B5EBE090000D13C /* NSData+Base64Additions.h */,
+				C32EBF141B5EBE090000D13C /* NSData+Base64Additions.m */,
+				C32EBF151B5EBE090000D13C /* NSStream+SKPSMTPExtensions.h */,
+				C32EBF161B5EBE090000D13C /* NSStream+SKPSMTPExtensions.m */,
+				C32EBF171B5EBE090000D13C /* SKPSMTPMessage.h */,
+				C32EBF181B5EBE090000D13C /* SKPSMTPMessage.m */,
+			);
+			path = SMTPLibrary;
+			sourceTree = "<group>";
+		};
+		C371A7961B79287F00A47256 /* SplashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C371A7971B79287F00A47256 /* SplashViewController.h */,
+				C371A7981B79287F00A47256 /* SplashViewController.m */,
+			);
+			path = SplashViewController;
+			sourceTree = "<group>";
+		};
+		C37B9B071B75FCB200024B08 /* CustomPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C37B9B081B75FCB200024B08 /* CustomPickerView.h */,
+				C37B9B091B75FCB200024B08 /* CustomPickerView.m */,
+				C37B9B0A1B75FCB200024B08 /* CustomPickerView.xib */,
+			);
+			path = CustomPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32EBEB91B5EA4320000D13C /* HomeDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32EBEDD1B5EA4330000D13C /* Build configuration list for PBXNativeTarget "HomeDoctor" */;
+			buildPhases = (
+				BA67F0E867282E65741B3407 /* Check Pods Manifest.lock */,
+				C32EBEB61B5EA4320000D13C /* Sources */,
+				C32EBEB71B5EA4320000D13C /* Frameworks */,
+				C32EBEB81B5EA4320000D13C /* Resources */,
+				7A5B19677B1BC62D70AB3F95 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeDoctor;
+			productName = HomeDoctor;
+			productReference = C32EBEBA1B5EA4320000D13C /* HomeDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C32EBED21B5EA4320000D13C /* HomeDoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32EBEE01B5EA4330000D13C /* Build configuration list for PBXNativeTarget "HomeDoctorTests" */;
+			buildPhases = (
+				C32EBECF1B5EA4320000D13C /* Sources */,
+				C32EBED01B5EA4320000D13C /* Frameworks */,
+				C32EBED11B5EA4320000D13C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32EBED51B5EA4320000D13C /* PBXTargetDependency */,
+			);
+			name = HomeDoctorTests;
+			productName = HomeDoctorTests;
+			productReference = C32EBED31B5EA4320000D13C /* HomeDoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32EBEB21B5EA4320000D13C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Hassan;
+				TargetAttributes = {
+					C32EBEB91B5EA4320000D13C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8725MHNPME;
+					};
+					C32EBED21B5EA4320000D13C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C32EBEB91B5EA4320000D13C;
+					};
+				};
+			};
+			buildConfigurationList = C32EBEB51B5EA4320000D13C /* Build configuration list for PBXProject "HomeDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32EBEB11B5EA4320000D13C;
+			productRefGroup = C32EBEBB1B5EA4320000D13C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32EBEB91B5EA4320000D13C /* HomeDoctor */,
+				C32EBED21B5EA4320000D13C /* HomeDoctorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32EBEB81B5EA4320000D13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30C8E1E1B97427600C10D11 /* btn_back@2x.png in Resources */,
+				C37B9B0C1B75FCB200024B08 /* CustomPickerView.xib in Resources */,
+				C30C8E241B9766F700C10D11 /* main_bg@2x.png in Resources */,
+				C30C8E251B9766F700C10D11 /* main_bg@3x.png in Resources */,
+				C32EBEF61B5EA5090000D13C /* Main.storyboard in Resources */,
+				C30C8E231B9766F700C10D11 /* main_bg.png in Resources */,
+				C30C8E1D1B97427600C10D11 /* btn_back@2x 2.png in Resources */,
+				C30C8E1F1B97427600C10D11 /* btn_back@3x.png in Resources */,
+				C32EBECB1B5EA4320000D13C /* Images.xcassets in Resources */,
+				C32EBEFE1B5EA6030000D13C /* ActivityIndicatorView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32EBED11B5EA4320000D13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A5B19677B1BC62D70AB3F95 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeDoctor/Pods-HomeDoctor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA67F0E867282E65741B3407 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32EBEB61B5EA4320000D13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32EBF011B5EA61A0000D13C /* RegisterViewController.m in Sources */,
+				C32EBF1A1B5EBE090000D13C /* HSK_CFUtilities.m in Sources */,
+				C32EBEF71B5EA5090000D13C /* MainViewController.m in Sources */,
+				C31302871B5FE57F002A7C22 /* Reachability.m in Sources */,
+				C313028A1B5FE5B0002A7C22 /* Utility.m in Sources */,
+				C371A7991B79287F00A47256 /* SplashViewController.m in Sources */,
+				C32EBF1C1B5EBE090000D13C /* NSStream+SKPSMTPExtensions.m in Sources */,
+				C32EBEF21B5EA5090000D13C /* AppDelegate.m in Sources */,
+				C313028E1B6045BF002A7C22 /* NSDate+Utilities.m in Sources */,
+				C32EBF191B5EBE090000D13C /* Base64Transcoder.m in Sources */,
+				C32EBF1B1B5EBE090000D13C /* NSData+Base64Additions.m in Sources */,
+				C32EBEC01B5EA4320000D13C /* main.m in Sources */,
+				C32EBF1D1B5EBE090000D13C /* SKPSMTPMessage.m in Sources */,
+				C32EBEFD1B5EA6030000D13C /* ActivityIndicatorView.m in Sources */,
+				C37B9B0B1B75FCB200024B08 /* CustomPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32EBECF1B5EA4320000D13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32EBEDA1B5EA4330000D13C /* HomeDoctorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C32EBED51B5EA4320000D13C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32EBEB91B5EA4320000D13C /* HomeDoctor */;
+			targetProxy = C32EBED41B5EA4320000D13C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C32EBEDB1B5EA4330000D13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C32EBEDC1B5EA4330000D13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32EBEDE1B5EA4330000D13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0B3B32ED2FA28F74DA6D23 /* Pods-HomeDoctor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dial A Local Doctor Pty Ltd (8725MHNPME)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dial A Local Doctor Pty Ltd (8725MHNPME)";
+				INFOPLIST_FILE = HomeDoctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "942d62db-21ee-4cf5-9a93-0ea35d43a399";
+			};
+			name = Debug;
+		};
+		C32EBEDF1B5EA4330000D13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D108635537A511BCB5AC64 /* Pods-HomeDoctor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dial A Local Doctor Pty Ltd (8725MHNPME)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dial A Local Doctor Pty Ltd (8725MHNPME)";
+				INFOPLIST_FILE = HomeDoctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "942d62db-21ee-4cf5-9a93-0ea35d43a399";
+			};
+			name = Release;
+		};
+		C32EBEE11B5EA4330000D13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomeDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDoctor.app/HomeDoctor";
+			};
+			name = Debug;
+		};
+		C32EBEE21B5EA4330000D13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomeDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDoctor.app/HomeDoctor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32EBEB51B5EA4320000D13C /* Build configuration list for PBXProject "HomeDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32EBEDB1B5EA4330000D13C /* Debug */,
+				C32EBEDC1B5EA4330000D13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32EBEDD1B5EA4330000D13C /* Build configuration list for PBXNativeTarget "HomeDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32EBEDE1B5EA4330000D13C /* Debug */,
+				C32EBEDF1B5EA4330000D13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32EBEE01B5EA4330000D13C /* Build configuration list for PBXNativeTarget "HomeDoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32EBEE11B5EA4330000D13C /* Debug */,
+				C32EBEE21B5EA4330000D13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C32EBEB21B5EA4320000D13C /* Project object */;
+}
